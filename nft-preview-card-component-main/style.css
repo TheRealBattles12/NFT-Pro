@@ -1,0 +1,60 @@
+body {
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.all {
+    background-color: #15263f;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+.all img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.equi {
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+.ethe, .days, .creation {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.ethe img, .days img, .creation img {
+    margin-right: 10px;
+}
+
+.ETH, .creator {
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+}
+
+.creation img.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.days img, .ethe img{
+    width: 20px;
+    height: 20px;
+}
+.days, .ethe{
+    display: inline-block;
+}
+.days{
+    float: right;
+}
